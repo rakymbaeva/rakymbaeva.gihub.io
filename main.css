@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(238, 212, 215);
+}
+h1{
+    color: rgb(121, 68, 68);
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 45%;
+    margin-top: 5px;
+}
+.foto img{
+    width:380px ;
+    height: 510px;
+    border-radius: 20px;
+    margin-left: 35%;
+    position: relative;
+
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+   
+   
+}
+.foto img:hover{
+    opacity: 0;
+}
+.ikonka img{
+    width: 45px;
+    height: 40px;
+    border-radius:20px ;
+    margin-top: 15px;
+    margin-left: 47%;
+}
+main h1{
+    color: rgb(78, 47, 52);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40%;
+    text-align: center;
+    
+    
+}
+main a{
+    color: rgb(78, 47, 52);
+    margin-left: 45%;
+    font-size: 50px;
+    text-decoration: none;
+}
+p{
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 38%;
+    margin-top: 270px;
+    font-size: 30px;
+    color:  rgb(78, 47, 52);
+}
